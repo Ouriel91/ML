@@ -1,0 +1,3 @@
+random state
+------------
+https://medium.com/mlearning-ai/what-the-heck-is-random-state-24a7a8389f3d
