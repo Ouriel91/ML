@@ -1,0 +1,7 @@
+UCI ML repository:
+-------------------
+https://archive.ics.uci.edu/datasets
+
+the course site
+-----------------
+https://www.superdatascience.com/
