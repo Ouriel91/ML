@@ -1,0 +1,7 @@
+Ultimate Guide to Regression and Classification
+-----------------------------------------------
+https://www.superdatascience.com/blogs/the-ultimate-guide-to-regression-classification
+
+kernels functions
+-----------------
+https://juliapackages.com/p/mlkernels
