@@ -1,0 +1,7 @@
+1. This data set has no missing data and categorial data (but in real-world sometimes we need to do preprocessing data), the dataset was taken from the UCI ML repository:
+https://archive.ics.uci.edu/datasets
+2. All of these files are templates that should predict the last column - dependent variable
+3. That data is related to energy but as said above we don't need to know how it works
+4. I'll add my code folder just for practice
+5. the main goal of this Regression folder is to choose the correct model for this dataset
+

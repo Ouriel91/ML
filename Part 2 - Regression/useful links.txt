@@ -1,0 +1,11 @@
+dummy variable trap
+-----------------------
+https://www.learndatasci.com/glossary/dummy-variable-trap/
+
+overfitting and regularization 
+-----------------------
+https://induraj2020.medium.com/how-does-l1-and-l2-regularization-prevent-overfitting-223ef7001042
+
+Ultimate Guide to Regression and Classification
+-----------------------------------------------
+https://www.superdatascience.com/blogs/the-ultimate-guide-to-regression-classification
