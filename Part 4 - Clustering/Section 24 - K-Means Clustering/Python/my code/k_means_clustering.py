@@ -27,7 +27,7 @@ dataset = pd.read_csv('Mall_Customers.csv')
 # - 2D plot is nicer)
 # so we take the most relavant columns Annual and Spending
 
-col_sub_list  = [3,4]
+col_sub_list = [3,4]
 #print(col_sub_list)
 
 X = dataset.iloc[:, col_sub_list].values
