@@ -55,16 +55,21 @@ ads_num = len(dataset.axes[1])
 #print('total ads:',ads_num)
 
 # ---  full round is a user ----
+
+# Note: This does not represent a *CLICKED* ad. It is only is saying that we selected this ad to be shown to a user. 
+# The user may or may not click any of these ads we've selected to show them
 ads_selected = [] #full list of ads that are selected over the round (save indexes of selected ads later)
 
 #(we the add 1 to total reward if user clicks the ad, and 0 if user don't)
 
 #initialize array of the of times that Advertisers (not the customers!!!) selected to show ad in each round - initial value of 0
 #each time we the selected ad in some number we increment this ad index in one (Array of counters)
+# Note: Again, this is NOT representing clicks. It just is tracking how many times we've chosen to show each ad to a user.
 times_selected_ad = [0] * ads_num
 
 #initialize array of reward sum in ad (column) - initial value of 0 (Array of counters)
 #each time that customer select this ad
+# So we've selected an ad to be shown to user n, and they've clicked that ad. This list will be used for tracking how many times that happens
 reward_sum = [0] * ads_num
 total_reward = 0 # total reward collecte all round rewards for all customers that clicks on all ads
 
@@ -90,10 +95,14 @@ for i in range(0,users_num):
     else:
       upper_bound =  1e400 #super high value like infinity
 
+    # as loop through our ads_num, we use this max_upper_bound to track which of our 10 ads has the highest upper_bound
     if(max_upper_bound < upper_bound):
         max_upper_bound = upper_bound
         ad_index = j
 
+  # after this for loop has cycled through our ads_num, whatever ad had the highest upper_bound will be assigned to ad_index = j
+  # so if our first ad had the highest upper bound, ad = 0
+  # THIS IS OUR CHOSEN AD WE'RE GOING TO SHOW TO USER n
   ads_selected.append(ad_index)
   times_selected_ad[ad_index] += 1
   reward = dataset.values[i, ad_index]
