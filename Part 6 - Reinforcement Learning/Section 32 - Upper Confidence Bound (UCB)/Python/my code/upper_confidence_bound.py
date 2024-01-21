@@ -59,13 +59,14 @@ ads_selected = [] #full list of ads that are selected over the round (save index
 
 #(we the add 1 to total reward if user clicks the ad, and 0 if user don't)
 
-#initialize array of the of times selected ad in each round - initial value of 0
-#each time we selected ad in some number we increment this ad index in one (Array of counters)
+#initialize array of the of times that Advertisers (not the customers!!!) selected to show ad in each round - initial value of 0
+#each time we the selected ad in some number we increment this ad index in one (Array of counters)
 times_selected_ad = [0] * ads_num
 
 #initialize array of reward sum in ad (column) - initial value of 0 (Array of counters)
+#each time that customer select this ad
 reward_sum = [0] * ads_num
-total_reward = 0 # total reward collecte all round rewards
+total_reward = 0 # total reward collecte all round rewards for all customers that clicks on all ads
 
 #print(ads_selected)
 #print(times_selected_ad)
@@ -76,7 +77,7 @@ for i in range(0,users_num):
   max_upper_bound = 0
   for j in range (0, ads_num):
 
-    if(times_selected_ad[j] > 0): #the ad now already have been selected (in begining which mean the first round it will be no)
+    if(times_selected_ad[j] > 0): #the ad now already have been selected (in begining which mean the first round it will be not selected)
       average_reward = reward_sum[j] / times_selected_ad[j]
       interval_confidence = math.sqrt(3/2 * math.log(i+1) / times_selected_ad[j]) #i+1 because we start from 0 index
       upper_bound = average_reward + interval_confidence
