@@ -5,3 +5,8 @@ https://archive.ics.uci.edu/datasets
 the course site
 -----------------
 https://www.superdatascience.com/
+
+discord
+--------------
+https://discord.gg/gZq2538tCt
+(channel: #artificial-intelligence)
