@@ -79,3 +79,9 @@ y_pred = ann.predict(X_test)
 y_pred_reshape = y_pred.reshape(len(y_pred),1)
 y_test_reshape = y_test.reshape(len(y_test),1)
 print(np.concatenate((y_pred_reshape,y_test_reshape),1))
+
+"""### Making the r2 score"""
+
+from sklearn.metrics import r2_score
+score = r2_score(y_test, y_pred)
+print("r2_score: " + "{:.2f}".format(round(score, 2) *100)+ "%")
