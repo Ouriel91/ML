@@ -1,0 +1,3 @@
+summary of CNN
+-----------------
+https://www.superdatascience.com/blogs/the-ultimate-guide-to-convolutional-neural-networks-cnn
