@@ -1,0 +1,55 @@
+Efficient BackProp
+----------------------------
+https://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+
+Deep sparse rectifier neural networks
+--------------------------------------
+https://jmlr.org/proceedings/papers/v15/glorot11a/glorot11a.pdf
+
+A list of cost functions used in neural networks, alongside applications
+-------------------------------------------------------------------------
+https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications
+
+A Neural Network in 13 lines of Python (Part 2 - Gradient Descent)
+-------------------------------------------------------------------
+https://iamtrask.github.io/2015/07/27/python-network-part2/
+
+Neural Networks and Deep Learning
+----------------------------------
+http://neuralnetworksanddeeplearning.com/chap2.html
+
+Gradient-Based LearningApplied to Document Recognition
+------------------------------------------------------
+https://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
+
+Introduction to Convolutional Neural Networks
+---------------------------------------------
+https://cs.nju.edu.cn/wujx/paper/CNN.pdf
+
+Understanding Convolutional Neural Networks with A Mathematical Model
+---------------------------------------------------------------------
+https://arxiv.org/pdf/1609.04112.pdf
+
+Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification
+-------------------------------------------------------------------------------------------
+https://arxiv.org/pdf/1502.01852.pdf
+
+Evaluation of Pooling Operations in Convolutional Architectures for Object Recognition
+--------------------------------------------------------------------------------------
+https://www.ais.uni-bonn.de/papers/icann2010_maxpool.pdf
+
+The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3)
+-----------------------------------------------------------------------------
+https://adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
+
+full site of Adit Deshpande (deep learning)
+-------------------------------------------
+https://adeshpande3.github.io/
+
+A Friendly Introduction to Cross-Entropy Loss
+----------------------------------------------
+https://rdipietro.github.io/friendly-intro-to-cross-entropy-loss/
+
+How to implement a neural network (5 article series)
+----------------------------------------------------
+https://peterroelants.github.io/posts/neural-network-implementation-part01/

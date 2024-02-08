@@ -1,0 +1,22 @@
+The Application of Multiple Linear Regression and
+Artificial Neural Network Models for Yield Prediction
+of Very Early Potato Cultivars before Harvest
+----------------------------------------
+https://www.mdpi.com/2073-4395/11/5/885
+
+
+Verifying the Assumptions of Linear Regression
+in Python and R
+---------------------------------------------
+https://towardsdatascience.com/verifying-the-assumptions-of-linear-regression-in-python-and-r-f4cd2907d4c0
+
+Support Vector Regression
+(from: Efficient Learning Machines:
+Theories, Concepts, and Applications for
+Engineers and System Designers)
+--------------------------------------------
+https://core.ac.uk/download/pdf/81523322.pdf
+
+The Kernel Cookbook
+--------------------------------------------------------
+https://www.cs.toronto.edu/~duvenaud/cookbook/index.html
